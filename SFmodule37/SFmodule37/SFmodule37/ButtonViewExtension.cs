@@ -18,6 +18,8 @@ namespace SFmodule37
             {
                 case ButtonStyle.Default:
                     return 0;
+                case ButtonStyle.Round5:
+                    return 5;
                 case ButtonStyle.SemiRound:
                     return 15;
                 case ButtonStyle.Round:
@@ -34,6 +36,7 @@ namespace SFmodule37
     public enum ButtonStyle
     {
         Default,
+        Round5,
         SemiRound,
         Round
     }

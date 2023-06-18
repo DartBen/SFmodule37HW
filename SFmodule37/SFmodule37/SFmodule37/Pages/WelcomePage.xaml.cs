@@ -17,8 +17,9 @@ namespace SFmodule37.Pages
             InitializeComponent();
         }
 
-        public void GetWeater_Click(object sender, EventArgs e)
+        public async void GetWeater_Click(object sender, EventArgs e)
         {
+            await Navigation.PushModalAsync(new WeatherPage());
         }
 
     }

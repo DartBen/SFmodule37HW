@@ -11,7 +11,7 @@ namespace SFmodule37
         {
             InitializeComponent();
 
-            MainPage = new WelcomePage();
+            MainPage = new NavigationPage(new WelcomePage());
         }
 
         protected override void OnStart()

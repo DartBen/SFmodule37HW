@@ -5,8 +5,8 @@
              x:Class="SFmodule37.Pages.WelcomePage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center"  HorizontalOptions="Center"  x:Name="stackLayout">
-            <Label Text="Welcome to WeatherApp!" FontSize="Medium"  Padding="30,10,30,10" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
-            <Button x:Name="GetWeater" Text="GetWeater" Clicked="GetWeater_Click" CornerRadius="{local:ButtonViewExtension ButtonStyle=Round}"/>
+            <Label Text="Welcome to WeatherApp!" FontSize="Large"  Padding="30,10,30,10" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            <Button x:Name="GetWeater" Text="GetWeater" Clicked="GetWeater_Click" CornerRadius="{local:ButtonViewExtension ButtonStyle=Round5}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
