@@ -16,5 +16,10 @@ namespace SFmodule37.Pages
         {
             InitializeComponent();
         }
+
+        public void GetWeater_Click(object sender, EventArgs e)
+        {
+        }
+
     }
 }

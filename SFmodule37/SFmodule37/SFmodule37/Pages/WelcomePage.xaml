@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SFmodule37"
              x:Class="SFmodule37.Pages.WelcomePage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="Center"  HorizontalOptions="Center"  x:Name="stackLayout">
+            <Label Text="Welcome to WeatherApp!" FontSize="Medium"  Padding="30,10,30,10" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            <Button x:Name="GetWeater" Text="GetWeater" Clicked="GetWeater_Click" CornerRadius="{local:ButtonViewExtension ButtonStyle=Round}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

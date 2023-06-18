@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SFmodule37.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace SFmodule37
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new WelcomePage();
         }
 
         protected override void OnStart()
